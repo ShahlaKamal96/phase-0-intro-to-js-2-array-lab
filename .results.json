@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-10-24T05:01:09.405Z",
+    "end": "2022-10-24T05:02:19.691Z",
+    "duration": 70286
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 70021,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /mnt/c/Users/shahla/javascript_canva_assignments/dataStructure/phase-0-intro-to-js-2-array-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}
